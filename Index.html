@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corrosion Rate Measurement Simulator</title>
+    <link link rel="stylesheet" href="style.css"\link>
+</head>
+<body>
+    <div id="header-bar">
+        <div style="width:2vw;min-width:32px;"></div>
+        <div id="header-title">Corrosion Rate Measurement Simulator</div>
+    </div>
+    <div id="main-content">
+        <div id="controls-panel">
+            <div id="controls-content">
+                <div class="param-group">
+                    <label>Metal</label>
+                    <div class="image-button-group" id="metal-btn-group">
+                        <button class="img-btn" data-metal="iron" id="metal-iron" title="Iron">
+                            <img src="iron1.jpeg" alt="Iron">
+                            <span class="metal-code">Fe</span>
+                        </button>
+                        <button class="img-btn" data-metal="zinc" id="metal-zinc" title="Zinc">
+                            <img src="zinc-2-new.png" alt="Zinc">
+                            <span class="metal-code">Zn</span>
+                        </button>
+                        <button class="img-btn" data-metal="copper" id="metal-copper" title="Copper">
+                            <img src="copper.jpeg" alt="Copper">
+                            <span class="metal-code">Cu</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="param-group">
+                    <label>Electrolyte</label>
+                    <div class="image-button-group" id="electrolyte-btn-group">
+                        <button class="img-btn" data-electrolyte="water" id="electrolyte-water" title="Water">
+                            <img src="water.png" alt="Water" draggable="true">
+                            <span class="elec-code">H₂O</span>
+                        </button>
+                        <button class="img-btn" data-electrolyte="nacl" id="electrolyte-nacl" title="Sodium Chloride">
+                            <img src="salt.png" alt="NaCl" draggable="true">
+                            <span class="elec-code">NaCl</span>
+                        </button>
+                        <button class="img-btn" data-electrolyte="h2so4" id="electrolyte-h2so4" title="Sulphuric Acid">
+                            <img src="H2SO4.jpeg" alt="H₂SO₄" draggable="true">
+                            <span class="elec-code">H₂SO₄</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="param-group">
+                    <label for="concentration-slider">Concentration</label>
+                    <input type="range" id="concentration-slider" min="1" max="5" value="1" step="1" disabled>
+                    <div class="slider-scale" id="concentration-scale">
+                        <span>0.1M</span>
+                        <span>1M</span>
+                        <span>4M</span>
+                        <span>7M</span>
+                        <span>10M</span>
+                    </div>
+                </div>
+                <div class="param-group">
+                    <label for="time-slider">Exposure Time</label>
+                    <input type="range" id="time-slider" min="1" max="5" value="1" step="1" disabled>
+                    <div class="slider-scale" id="time-scale">
+                        <span>1 hr</span>
+                        <span>3 hr</span>
+                        <span>5 hr</span>
+                        <span>7 hr</span>
+                        <span>10 hr</span>
+                    </div>
+                </div>
+                <div class="param-group">
+                    <label for="temp-slider">Temperature</label>
+                    <input type="range" id="temp-slider" min="1" max="5" value="1" step="1" disabled>
+                    <div class="slider-scale" id="temp-scale">
+                        <span>25°C</span>
+                        <span>40°C</span>
+                        <span>60°C</span>
+                        <span>80°C</span>
+                        <span>100°C</span>
+                    </div>
+                </div>
+                <div class="button-group">
+                    <button id="start-btn" disabled>Start</button>
+                    <button id="reset-btn" disabled>Reset</button>
+                </div>
+            </div>
+        </div>
+        <div id="right-section">
+            <div id="instructions-box">
+                <h2>Instructions</h2>
+                <p id="instructions-text">Step 1: Select and drag the metal rod to the beaker</p>
+            </div>
+            <div id="simulator-clock">
+                <span id="clock-time">00:00</span>
+            </div>
+            <div id="simulator-canvas">
+                <canvas id="sim-canvas" width="460" height="375"></canvas>
+            </div>
+            <div id="result-section">
+                <div id="result-panel">
+                    <h3>Result</h3>
+                    <div id="corrosion-rate">Corrosion Rate: --</div>
+                </div>
+                <div id="reaction-panel">
+                    <h3>Reactions</h3>
+                    <div id="oxidation-reaction">Oxidation: --</div>
+                    <div id="reduction-reaction">Reduction: --</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="popup-bg" style="pointer-events:none;">
+        <div id="popup">
+            No reaction. Copper does not react with water and NaCl.
+            <span id="popup-sub"><sub>Press Reset</sub></span>
+        </div>
+    </div>
+<script src = "script.js" ></script>
+</body>
+</html>
