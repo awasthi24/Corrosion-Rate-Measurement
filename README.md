@@ -1,6 +1,6 @@
 # corrosion Rate Measurement 
-(short intro)
 
+This experiment simulates the measurement of metal corrosion rates in various environments using electrochemical techniques, allowing analysis of material degradation over time.
 # engineering-chemistry-lab
 Engineering Chemistry Virtual Labs
 ## Introduction
@@ -13,7 +13,7 @@ Engineering Chemistry Virtual Labs
 
 ### About the Experiment 
 
-(short intro)
+This experiment simulates the measurement of metal corrosion rates in various environments using electrochemical techniques, allowing analysis of material degradation over time.
 
 <b>Name of Developer | Dr. Ravish Rajput 
 :--|:--|
