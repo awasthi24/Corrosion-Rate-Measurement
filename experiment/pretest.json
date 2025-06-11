@@ -2,58 +2,58 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "",
+      "question": "Which of the following is NOT required for electrochemical corrosion to occur?",
       "answers": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "Anode",
+        "b": "Cathode",
+        "c": "Oxygen",
+        "d": "Electrolyte"
       },
-      "correctAnswer": "",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "",
+      "question": "What is the main function of the electrolyte in a corrosion cell?",
       "answers": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "Acts as an insulator",
+        "b": "Allows ion movement between electrodes",
+        "c": "Prevents corrosion",
+        "d": "Increases metal strength"
       },
-      "correctAnswer": "",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "",
+      "question": "Which metal is most likely to corrode fastest in saltwater?",
       "answers": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "Gold",
+        "b": "Iron",
+        "c": "Platinum",
+        "d": "Stainless steel"
       },
-      "correctAnswer": "",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "",
+      "question": "Increasing the temperature during a corrosion experiment generally:",
       "answers": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "Decreases the corrosion rate",
+        "b": "Has no effect",
+        "c": "Increases the corrosion rate",
+        "d": "Stops corrosion completely"
       },
-      "correctAnswer": "",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "",
+      "question": "Which of the following is a common electrolyte used in laboratory corrosion experiments?",
       "answers": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "Distilled water",
+        "b": "Sodium chloride solution",
+        "c": "Vegetable oil",
+        "d": "Alcohol"
       },
-      "correctAnswer": "",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
@@ -67,47 +67,36 @@
       "difficulty": "beginner"
     },
     {
-      "question": "",
+      "question": "What is the primary measurement used to compare corrosion rates in different conditions?",
       "answers": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "Weight loss of metal",
+        "b": "Color change",
+        "c": "Sound produced",
+        "d": "Smell of solution"
     },
-      "correctAnswer": "",
+      "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "",
+      "question": "Which type of corrosion is considered very dangerous and difficult to detect?",
       "answers": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "Uniform corrosion",
+        "b": "Pitting corrosion",
+        "c": "Galvanic corrosion",
+        "d": "Fretting corrosion"
       },
-      "correctAnswer": "",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "",
+      "question": "What happens to the corrosion rate if the exposure time is increased in a controlled environment?",
       "answers": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "It decreases",
+        "b": "It remains constant",
+        "c": "It increases",
+        "d": "It fluctuates randomly"
       },
-      "correctAnswer": "",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "",
-      "answers": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "correctAnswer": "",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
@@ -118,7 +107,29 @@
         "c": "",
         "d": ""
       },
-      "correctAnswer": "",
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the purpose of setting different metals in a virtual corrosion lab?",
+      "answers": {
+        "a": "To observe color changes",
+        "b": "To compare corrosion resistance",
+        "c": "To measure melting point",
+        "d": "To test electrical conductivity"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following best describes a protective oxide layer on a metal?",
+      "answers": {
+        "a": "Thin and non-adherent",
+        "b": "Passivating and adherent",
+        "c": "Brittle and easily removed",
+        "d": "Always non-protective"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
