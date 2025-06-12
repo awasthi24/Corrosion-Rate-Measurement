@@ -81,26 +81,125 @@
 /////////////////////////////////////////////////////////////////////////////
 const myQuestions = [
     {
-      question: "On increasing the radius of the steel ball to double its value the terminal velocity of the ball become box:",  ///// Write the question inside double quotes
-      answers: {
-        a: " double",                  ///// Write the option 1 inside double quotes
-        b: "four times",                  ///// Write the option 2 inside double quotes
-        c: "eight times",                  ///// Write the option 3 inside double quotes
-        d: "sixteen times"                   ///// Write the option 4 inside double quotes
+      "question": "After increasing the temperature in your simulation, what was the observed effect on the corrosion rate?",
+      "answers": {
+        "a": "It decreased",
+        "b": "It stayed the same",
+        "c": "It increased",
+        "d": "It fluctuated randomly"
       },
-      correctAnswer: "b"                ///// Write the correct option inside double quotes
+      "correctAnswer": "c",
+      "difficulty": "beginner"
     },
-
     {
-      question: " On increasing density of material of the falling ball its terminal velocity:",  ///// Write the question inside double quotes
-      answers: {
-        a: "Increases",                  ///// Write the option 1 inside double quotes
-        b: "decreases",                  ///// Write the option 2 inside double quotes
-        c: "remains constant",                  ///// Write the option 3 inside double quotes
-        d: "NOT"                   ///// Write the option 4 inside double quotes
+      "question": "Which metal showed the highest resistance to corrosion in your virtual experiment?",
+      "answers": {
+        "a": "Iron",
+        "b": "Copper",
+        "c": "Zinc",
+        "d": "Stainless steel"
       },
-      correctAnswer: "a"                ///// Write the correct option inside double quotes
+      "correctAnswer": "d",
+      "difficulty": "beginner"
     },
+    {
+      "question": "What was the effect of using a higher concentration electrolyte on corrosion rate?",
+      "answers": {
+        "a": "Decreased the rate",
+        "b": "No effect",
+        "c": "Increased the rate",
+        "d": "Stopped corrosion"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "When you increased the exposure time, what happened to the total weight loss of the metal?",
+      "answers": {
+        "a": "It decreased",
+        "b": "It remained the same",
+        "c": "It increased",
+        "d": "It fluctuated"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which parameter did you find most influential in accelerating corrosion in your simulation?",
+      "answers": {
+        "a": "Type of metal",
+        "b": "Color of solution",
+        "c": " Shape of metal",
+        "d": "Size of container"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What role did the electrolyte play in your experiment?",
+      "answers": {
+        "a": "Prevented corrosion",
+        "b": "Allowed ion movement and completed the circuit",
+        "c": "Made the solution colorful",
+        "d": "Increased metal strength"
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What type of corrosion did you observe when using two different metals in the same electrolyte?",
+      "answers": {
+        "a": "Uniform corrosion",
+        "b": "Galvanic corrosion",
+        "c": "Pitting corrosion",
+        "d": "Stress corrosion"
+    },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "",
+      "answers": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How did changing the metal affect the results of your corrosion experiment?",
+      "answers": {
+        "a": "No effect",
+        "b": "All metals corroded equally",
+        "c": "Some metals corroded faster than others",
+        "d": "Only non-metals corroded"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why is it important to control the temperature during corrosion experiments?",
+      "answers": {
+        "a": "To keep the solution clear",
+        "b": "To ensure consistent and reliable results",
+        "c": "To prevent evaporation",
+        "d": "To change the color of metal"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What conclusion can you draw about the relationship between electrolyte concentration and corrosion rate?",
+      "answers": {
+        "a": "Higher concentration decreases corrosion rate",
+        "b": "Higher concentration increases corrosion rate",
+        "c": "No relationship",
+        "d": "Corrosion stops at higher concentration"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
 
 
 
