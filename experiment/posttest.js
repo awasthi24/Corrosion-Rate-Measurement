@@ -48,7 +48,7 @@
     myQuestions.forEach((currentQuestion, questionNumber) => {
       // find selected answer
       const answerContainer = answerContainers[questionNumber];
-      const selector = input[name=question${questionNumber}]:checked;
+      const selector = `input[name=question${questionNumber}]:checked`;
       const userAnswer = (answerContainer.querySelector(selector) || {}).value;
 
       // if answer is correct
@@ -66,20 +66,18 @@
     });
 
     // show number of correct answers out of total
-    resultsContainer.innerHTML = ${numCorrect} out of ${myQuestions.length};
+    resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
   }
 
   const quizContainer = document.getElementById("quiz");
   const resultsContainer = document.getElementById("results");
   const submitButton = document.getElementById("submit");
- 
 
-/////////////////////////////////////////////////////////////////////////////
 
-/////////////////////// Do not modify the above code ////////////////////////
-
-/////////////////////////////////////////////////////////////////////////////
+  
 const myQuestions = [
+{
+questions: [
     {
       question: "After increasing the temperature in your simulation, what was the observed effect on the corrosion rate?",
       answers: {
@@ -190,6 +188,8 @@ const myQuestions = [
       correctAnswer: "b",
       difficulty: "beginner"
     }
+  ]
+}
 
 
 
