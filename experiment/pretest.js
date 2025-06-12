@@ -79,61 +79,80 @@
 /////////////////////// Do not modify the above code ////////////////////////
 
 /////////////////////////////////////////////////////////////////////////////
-{
-  "version": 2.0,
-  "questions": [
+const myQuestions = [
     {
-      "question": "Which of the following is NOT required for electrochemical corrosion to occur?",
+      "question": "After increasing the temperature in your simulation, what was the observed effect on the corrosion rate?",
       "answers": {
-        "a": "Anode",
-        "b": "Cathode",
-        "c": "Oxygen",
-        "d": "Electrolyte"
+        "a": "It decreased",
+        "b": "It stayed the same",
+        "c": "It increased",
+        "d": "It fluctuated randomly"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "What is the main function of the electrolyte in a corrosion cell?",
+      "question": "Which metal showed the highest resistance to corrosion in your virtual experiment?",
       "answers": {
-        "a": "Acts as an insulator",
-        "b": "Allows ion movement between electrodes",
-        "c": "Prevents corrosion",
-        "d": "Increases metal strength"
-      },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "Which metal is most likely to corrode fastest in saltwater?",
-      "answers": {
-        "a": "Gold",
-        "b": "Iron",
-        "c": "Platinum",
+        "a": "Iron",
+        "b": "Copper",
+        "c": "Zinc",
         "d": "Stainless steel"
       },
-      "correctAnswer": "b",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },
     {
-      "question": "Increasing the temperature during a corrosion experiment generally:",
+      "question": "What was the effect of using a higher concentration electrolyte on corrosion rate?",
       "answers": {
-        "a": "Decreases the corrosion rate",
-        "b": "Has no effect",
-        "c": "Increases the corrosion rate",
-        "d": "Stops corrosion completely"
+        "a": "Decreased the rate",
+        "b": "No effect",
+        "c": "Increased the rate",
+        "d": "Stopped corrosion"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "Which of the following is a common electrolyte used in laboratory corrosion experiments?",
+      "question": "When you increased the exposure time, what happened to the total weight loss of the metal?",
       "answers": {
-        "a": "Distilled water",
-        "b": "Sodium chloride solution",
-        "c": "Vegetable oil",
-        "d": "Alcohol"
+        "a": "It decreased",
+        "b": "It remained the same",
+        "c": "It increased",
+        "d": "It fluctuated"
       },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which parameter did you find most influential in accelerating corrosion in your simulation?",
+      "answers": {
+        "a": "Type of metal",
+        "b": "Color of solution",
+        "c": " Shape of metal",
+        "d": "Size of container"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What role did the electrolyte play in your experiment?",
+      "answers": {
+        "a": "Prevented corrosion",
+        "b": "Allowed ion movement and completed the circuit",
+        "c": "Made the solution colorful",
+        "d": "Increased metal strength"
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What type of corrosion did you observe when using two different metals in the same electrolyte?",
+      "answers": {
+        "a": "Uniform corrosion",
+        "b": "Galvanic corrosion",
+        "c": "Pitting corrosion",
+        "d": "Stress corrosion"
+    },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
@@ -149,73 +168,38 @@
       "difficulty": "beginner"
     },
     {
-      "question": "What is the primary measurement used to compare corrosion rates in different conditions?",
+      "question": "How did changing the metal affect the results of your corrosion experiment?",
       "answers": {
-        "a": "Weight loss of metal",
-        "b": "Color change",
-        "c": "Sound produced",
-        "d": "Smell of solution"
-    },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "Which type of corrosion is considered very dangerous and difficult to detect?",
-      "answers": {
-        "a": "Uniform corrosion",
-        "b": "Pitting corrosion",
-        "c": "Galvanic corrosion",
-        "d": "Fretting corrosion"
-      },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "What happens to the corrosion rate if the exposure time is increased in a controlled environment?",
-      "answers": {
-        "a": "It decreases",
-        "b": "It remains constant",
-        "c": "It increases",
-        "d": "It fluctuates randomly"
+        "a": "No effect",
+        "b": "All metals corroded equally",
+        "c": "Some metals corroded faster than others",
+        "d": "Only non-metals corroded"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "",
+      "question": "Why is it important to control the temperature during corrosion experiments?",
       "answers": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "What is the purpose of setting different metals in a virtual corrosion lab?",
-      "answers": {
-        "a": "To observe color changes",
-        "b": "To compare corrosion resistance",
-        "c": "To measure melting point",
-        "d": "To test electrical conductivity"
+        "a": "To keep the solution clear",
+        "b": "To ensure consistent and reliable results",
+        "c": "To prevent evaporation",
+        "d": "To change the color of metal"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "Which of the following best describes a protective oxide layer on a metal?",
+      "question": "What conclusion can you draw about the relationship between electrolyte concentration and corrosion rate?",
       "answers": {
-        "a": "Thin and non-adherent",
-        "b": "Passivating and adherent",
-        "c": "Brittle and easily removed",
-        "d": "Always non-protective"
+        "a": "Higher concentration decreases corrosion rate",
+        "b": "Higher concentration increases corrosion rate",
+        "c": "No relationship",
+        "d": "Corrosion stops at higher concentration"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
     }
-  ]
-}   
 
 
 
